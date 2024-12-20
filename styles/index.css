@@ -1,0 +1,151 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+body {
+    max-width: 414px;
+    margin: 0;
+    font-family: "Roboto", serif;
+}
+
+a {
+    text-decoration: none;
+}
+
+.header {
+    display: flex;
+    padding: 0 15px;
+}
+
+.header > p {
+    font-size: 24px;
+    font-weight: 700;
+    color: rgba(0, 0, 0, 40%);
+}
+
+.header > img[alt="Поиск"] {
+    margin: 0 35px;
+}
+
+.navigation {
+    display: flex;
+    justify-content: center;
+}
+
+.navigation > img {
+    margin: 0 14px;
+}
+
+.stories {
+    margin-top: 20px;
+}
+
+.stories{
+    display: flex;
+    justify-content: space-between;
+}
+
+.news {
+    margin-top: 25px;
+}
+
+.news > img {
+    width: 100%;
+}
+
+.actions > img {
+    margin-top: 10px;
+    margin-left:15px;
+}
+
+.news__text {
+    max-width: 370px;
+    margin: 0 auto;
+}
+
+.news__text > span {
+    color: rgba(0, 93, 40, 0.8);
+
+}
+
+form {
+    max-width: 334px;
+    flex-direction: column;
+    margin: 0 25px;
+    padding: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.25);
+    border-radius: 10px;
+}
+
+form > p {
+    color: rgba(0, 0, 0, 0.6);
+}
+
+input {
+    width: 300px;
+    height: 36px;
+    background-color: rgba(0, 93, 40, 0.8);
+    border-radius: 5px;
+    color: #fff;
+    font-size: 18px;
+    text-align: left;
+    margin-bottom: 10px;
+}
+
+.question {
+    color: rgba(0, 93, 40, 0.8);
+    text-align: center;
+}
+
+.survey {
+    display: flex;
+    margin: 10px auto;
+    padding: 10px;
+}
+
+.more__link {
+    color: rgba(0, 93, 40, 0.8);
+}
+
+.more {
+    text-align: center;
+    margin-top: 15px;
+    margin-bottom: 40px;
+}
+
+.footer {
+    background-color: rgba(0, 93, 40, 1);
+    color: rgba(255, 255, 255, 0.6);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 35px;
+}
+
+.footer > img {
+    width: 106px;
+}
+
+.footer > a {
+    color: rgba(255, 255, 255, 0.6);
+}
+
+.line {
+    border-bottom: rgba(255, 255, 255, 1) solid 1px;
+    width: 300px;
+    margin: 15px 0;
+}
+
+.footer__media {
+    margin-top: 40px;
+    margin-bottom: 15px;
+}
+
+.footer > p{
+    margin: 5px 0;
+}
+
+.footer__info {
+    text-align: center;
+    font-size: 14px;
+    margin: 15px 10px;
+    color: rgba(255, 255, 255, 0.4);
+}
